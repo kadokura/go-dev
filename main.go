@@ -44,3 +44,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 func init() {
     http.HandleFunc("/", handler)
 }
+
+func main() {
+    fmt.Println("main")
+}
